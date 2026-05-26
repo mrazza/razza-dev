@@ -349,9 +349,14 @@ onUnmounted(() => {
             Matthew Razza
           </h1>
           
-          <p class="max-w-xl mx-auto text-sm sm:text-base text-gray-400 leading-relaxed font-light">
-            Staff Software Engineer @ <span class="text-white">Google NYC</span>. Designing performant, reliable solutions from game engines and network libraries to custom computer vision pipelines. Based in <span class="text-white">Jersey City</span>.
-          </p>
+          <div class="max-w-xl mx-auto space-y-3">
+            <p class="text-base sm:text-lg text-indigo-300 font-medium">
+              Staff Software Engineer @ <span class="text-white font-semibold">Google NYC</span>
+            </p>
+            <p class="text-sm sm:text-base text-gray-400 leading-relaxed font-light">
+              Based in <span class="text-white">Jersey City</span>, working in <span class="text-white">adtech</span> and <span class="text-white">realtime bidding</span> alongside <span class="text-white">game engines</span>, <span class="text-white">network libraries</span>, and custom <span class="text-white">computer vision pipelines</span>.
+            </p>
+          </div>
 
           <!-- External Quicklinks -->
           <div class="flex items-center justify-center space-x-4 pt-2">
