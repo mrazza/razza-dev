@@ -125,9 +125,9 @@ const initializePhysics = () => {
   // 2. Add Project Cards
   const projectCards = [
     { id: 'proj-smoc', label: 'smoc client', x: w * 0.25 },
-    { id: 'proj-celestial', label: 'CelestialEngine', x: w * 0.45 },
+    { id: 'proj-leiter', label: 'Leiter', x: w * 0.45 },
     { id: 'proj-cctv', label: 'cctv tracker', x: w * 0.65 },
-    { id: 'proj-bitmapnet', label: 'BitmapNet', x: w * 0.8 }
+    { id: 'proj-goose-mm-bridge', label: 'goose-mm-bridge', x: w * 0.8 }
   ];
 
   projectCards.forEach((p, idx) => {
@@ -343,12 +343,12 @@ const renderLoop = () => {
         // If they throw the "smoc" project card into any portal, open smoc GitHub
         if (body.label === 'proj-smoc') {
           targetUrl = 'https://github.com/mrazza/smoc';
-        } else if (body.label === 'proj-celestial') {
-          targetUrl = 'https://github.com/mrazza/CelestialEngine';
+        } else if (body.label === 'proj-leiter') {
+          targetUrl = 'https://github.com/mrazza/Leiter';
         } else if (body.label === 'proj-cctv') {
           targetUrl = 'https://github.com/mrazza/cctv-home-occupancy';
-        } else if (body.label === 'proj-bitmapnet') {
-          targetUrl = 'https://github.com/mrazza/BitmapNet';
+        } else if (body.label === 'proj-goose-mm-bridge') {
+          targetUrl = 'https://github.com/mrazza/goose-mm-bridge';
         } else if (body.label === 'link-github') {
           targetUrl = 'https://github.com/mrazza';
         } else if (body.label === 'link-linkedin') {
@@ -543,9 +543,9 @@ const renderLoop = () => {
         // General project/custom cards
         const labelText = 
           body.label === 'proj-smoc' ? 'smoc 🎧' :
-          body.label === 'proj-celestial' ? 'CelestialEngine ☄' :
+          body.label === 'proj-leiter' ? 'Leiter ☄' :
           body.label === 'proj-cctv' ? 'cctv-occupancy 👁' :
-          body.label === 'proj-bitmapnet' ? 'BitmapNet 🔢' : body.label;
+          body.label === 'proj-goose-mm-bridge' ? 'goose-mm-bridge 🔢' : body.label;
 
         ctx.fillStyle = '#f3f4f6';
         ctx.font = 'bold 12px system-ui, sans-serif';

@@ -183,12 +183,12 @@ const projects = [
     color: 'from-amber-500/10 to-orange-500/20 text-orange-400'
   },
   {
-    id: 'celestial',
-    title: 'CelestialEngine',
-    subtitle: '2D Deferred Game Engine',
-    description: 'A custom-built, deferred-rendered 2D .NET game engine engineered for programmers featuring advanced light casting, dynamic shadows, and custom physics.',
-    icon: markRaw(FlameIcon),
-    url: 'https://github.com/mrazza/CelestialEngine',
+    id: 'leiter',
+    title: 'Leiter',
+    subtitle: 'Image Processing Library',
+    description: 'A modern, high-performance, self-contained pure C# image processing library featuring fast matrix kernel convolutions and advanced color space conversions.',
+    icon: markRaw(SparklesIcon),
+    url: 'https://github.com/mrazza/Leiter',
     color: 'from-indigo-500/10 to-purple-500/20 text-indigo-400'
   },
   {
@@ -201,12 +201,12 @@ const projects = [
     color: 'from-emerald-500/10 to-teal-500/20 text-teal-400'
   },
   {
-    id: 'bitmapnet',
-    title: 'BitmapNet',
-    subtitle: 'High-Performance Bit Indexing',
-    description: 'An advanced, memory-optimized C# bitfield/bitmap index library extending traditional .NET BitArray capabilities for intensive data systems.',
+    id: 'goose-mm-bridge',
+    title: 'goose-mm-bridge',
+    subtitle: 'Mattermost Agent Bridge',
+    description: 'An asynchronous Python bridge connecting Goose AI agents to Mattermost threads, utilizing MCP tools for transparent thinking streams.',
     icon: markRaw(CodeIcon),
-    url: 'https://github.com/mrazza/BitmapNet',
+    url: 'https://github.com/mrazza/goose-mm-bridge',
     color: 'from-blue-500/10 to-sky-500/20 text-sky-400'
   }
 ];
