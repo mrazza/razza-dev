@@ -177,36 +177,36 @@ const projects = [
     id: 'smoc',
     title: 'smoc',
     subtitle: 'Console Audio Client',
-    description: 'Beautiful, keyboard-driven Soundcloud, Spotify & Tidal streaming audio player built for the terminal with full custom visualizers.',
+    description: 'Beautiful, keyboard-driven music player streaming Subsonic APIs & YouTube Music to your terminal, complete with custom audio drivers.',
     icon: markRaw(TerminalIcon),
     url: 'https://github.com/mrazza/smoc',
     color: 'from-amber-500/10 to-orange-500/20 text-orange-400'
   },
   {
-    id: 'tui',
-    title: 'Terminal.Gui',
-    subtitle: 'Cross-platform C# TUI toolkit',
-    description: 'Deep open-source contributor and designer for the premier cross-platform terminal user interface system for .NET.',
-    icon: markRaw(CodeIcon),
-    url: 'https://github.com/gui-cs/Terminal.Gui',
+    id: 'celestial',
+    title: 'CelestialEngine',
+    subtitle: '2D Deferred Game Engine',
+    description: 'A custom-built, deferred-rendered 2D .NET game engine engineered for programmers featuring advanced light casting, dynamic shadows, and custom physics.',
+    icon: markRaw(FlameIcon),
+    url: 'https://github.com/mrazza/CelestialEngine',
     color: 'from-indigo-500/10 to-purple-500/20 text-indigo-400'
   },
   {
     id: 'cctv',
     title: 'CCTV Occupancy',
-    subtitle: 'Smart Home Automation Tracker',
-    description: 'Real-time pipeline that uses Dahua/ONVIF camera RTSP feeds, YOLOv8 object detection, and motion tracking to manage room state.',
+    subtitle: 'Smart Home Presence Tracker',
+    description: 'A local, CPU-optimized computer vision pipeline utilizing OpenCV and YOLOv8/ByteTrack to monitor room state and crossing tripwires.',
     icon: markRaw(EyeIcon),
     url: 'https://github.com/mrazza/cctv-home-occupancy',
     color: 'from-emerald-500/10 to-teal-500/20 text-teal-400'
   },
   {
-    id: 'lax',
-    title: 'LaxStats',
-    subtitle: 'Sports Analytics Suite',
-    description: 'Modern sports statistics, team scheduling, and lacrosse game tracking platform engineered with Vue and Supabase.',
-    icon: markRaw(TrendingUpIcon),
-    url: 'https://github.com/mrazza/laxstats',
+    id: 'bitmapnet',
+    title: 'BitmapNet',
+    subtitle: 'High-Performance Bit Indexing',
+    description: 'An advanced, memory-optimized C# bitfield/bitmap index library extending traditional .NET BitArray capabilities for intensive data systems.',
+    icon: markRaw(CodeIcon),
+    url: 'https://github.com/mrazza/BitmapNet',
     color: 'from-blue-500/10 to-sky-500/20 text-sky-400'
   }
 ];
@@ -350,7 +350,7 @@ onUnmounted(() => {
           </h1>
           
           <p class="max-w-xl mx-auto text-sm sm:text-base text-gray-400 leading-relaxed font-light">
-            Software architect & systems builder. Designing beautiful, performant solutions from cross-platform <span class="text-white">Terminal User Interfaces</span> to real-time <span class="text-white">computer vision tracking pipelines</span>.
+            Staff Software Engineer @ <span class="text-white">Google NYC</span>. Designing performant, reliable solutions from game engines and network libraries to custom computer vision pipelines. Based in <span class="text-white">Jersey City</span>.
           </p>
 
           <!-- External Quicklinks -->
