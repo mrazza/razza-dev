@@ -342,7 +342,7 @@ onUnmounted(() => {
               <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
               <span class="relative inline-flex rounded-full h-2 w-2 bg-indigo-500"></span>
             </span>
-            <span>Crafting Interactive Software Systems</span>
+            <span>Bridging Terminals, Interfaces, and the Real World</span>
           </div>
           
           <h1 class="text-5xl sm:text-7xl font-extrabold tracking-tight bg-gradient-to-b from-white via-gray-100 to-gray-500 bg-clip-text text-transparent pb-1">
