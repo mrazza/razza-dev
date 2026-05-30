@@ -288,9 +288,8 @@ onUnmounted(() => {
     <header class="fixed top-0 left-0 right-0 z-50 px-6 py-4 flex items-center justify-between pointer-events-none">
       <!-- Logo -->
       <div class="flex items-center space-x-3 pointer-events-auto group">
-        <div class="relative w-9 h-9 rounded-lg bg-gradient-to-tr from-indigo-500 to-purple-600 flex items-center justify-center font-bold tracking-tight shadow-md shadow-indigo-500/20 group-hover:scale-105 transition-transform duration-300">
-          R
-          <div class="absolute inset-0 rounded-lg bg-indigo-400 opacity-0 group-hover:opacity-20 blur transition-opacity duration-300"></div>
+        <div class="relative w-9 h-9 group-hover:scale-105 transition-transform duration-300 select-none">
+          <img src="/apple-touch-icon.png" alt="R" class="w-full h-full object-contain" />
         </div>
         <div class="flex flex-col">
           <span class="text-sm font-semibold tracking-wide uppercase font-mono bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">razza.dev</span>
