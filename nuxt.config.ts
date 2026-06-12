@@ -17,18 +17,18 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { 
           name: 'description', 
-          content: 'Interactive personal landing page of Matthew Razza, Staff Software Engineer at Google NYC. Features a custom 2D physics gravity sandbox, harmonic vector resonance waves, programmatic Web Audio synthesis, and open-source project showcases.' 
+          content: 'Personal website of Matthew Razza, Staff Software Engineer at Google NYC. Simple, minimalist, text-based page showcasing projects and contact links.' 
         },
-        { name: 'theme-color', content: '#6366f1' },
+        { name: 'theme-color', content: '#0a0a0a' },
         // Open Graph / Facebook
         { property: 'og:type', content: 'website' },
         { property: 'og:title', content: 'razza.dev | Matthew Razza - Staff Software Engineer' },
-        { property: 'og:description', content: 'Interactive personal landing page of Matthew Razza. Features custom 2D physics gravity sandbox, vector resonance waves, and programmatic Web Audio synthesis.' },
+        { property: 'og:description', content: 'Personal website of Matthew Razza, Staff Software Engineer at Google NYC.' },
         { property: 'og:site_name', content: 'razza.dev' },
         // Twitter
-        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:card', content: 'summary' },
         { name: 'twitter:title', content: 'razza.dev | Matthew Razza - Staff Software Engineer' },
-        { name: 'twitter:description', content: 'Interactive personal landing page of Matthew Razza. Features custom 2D physics gravity sandbox, vector resonance waves, and programmatic Web Audio synthesis.' }
+        { name: 'twitter:description', content: 'Personal website of Matthew Razza, Staff Software Engineer at Google NYC.' }
       ],
       link: [
         { rel: 'icon', href: '/favicon.ico', sizes: 'any' },
