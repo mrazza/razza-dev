@@ -8,6 +8,7 @@ Live at: [razza.dev](https://razza.dev)
 
 ## Featured Projects
 
+* **coma** – An LLM agent architecture written entirely in native Zig, featuring comptime tool registration, async I/O, and ACP server integration.
 * **smoc** – A terminal-based, keyboard-driven console music client for Subsonic APIs and YouTube Music, complete with custom audio visualizers.
 * **Leiter** – A high-performance, pure C# image processing library featuring fast matrix kernel convolutions and color space conversions.
 * **cctv-occupancy** – A local, smart-home automation computer vision pipeline using OpenCV and YOLOv8/ByteTrack motion tripwire crossings.

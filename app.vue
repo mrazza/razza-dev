@@ -33,6 +33,20 @@ useHead({
         <ul class="space-y-6">
           <li>
             <a 
+              href="https://github.com/mrazza/coma" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="group inline-flex items-center space-x-1 font-medium text-zinc-200 hover:text-zinc-100"
+            >
+              <span class="border-b border-zinc-800 group-hover:border-zinc-400 transition-colors">coma</span>
+              <span class="text-zinc-500 group-hover:translate-x-0.5 transition-transform duration-150">→</span>
+            </a>
+            <p class="text-xs text-zinc-400 mt-1.5 leading-relaxed">
+              LLM agent architecture written entirely in native Zig, featuring type-safe comptime tool registration and ACP server integration.
+            </p>
+          </li>
+          <li>
+            <a 
               href="https://github.com/mrazza/smoc" 
               target="_blank" 
               rel="noopener noreferrer"
